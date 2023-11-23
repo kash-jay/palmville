@@ -18,8 +18,8 @@ body {
     padding: 20px;
     top: 0;
     width: 100%;
-    background-color: rgba(0,0,0,.5);
-    position: sticky;
+    background-color: rgba(58, 95, 11, 0.5);
+    /* position: sticky; */
 }
 
 #palms-pic {
@@ -30,7 +30,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    color: white;
+    color: #FEF3E2;
 }
 
 .header-item {
@@ -50,5 +50,30 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    font-size: 56px;
+    font-size: 64px;
+}
+
+.video-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    gap: 50px;
+    margin-top: 3%;
+}
+
+.video-title {
+    font-size: 24px;
+}
+
+.video-text{
+    width: 70%;
+    text-align: center;
+}
+
+.video {
+    width: 60%;
+    height: 80%;
+    border: 1px solid white;
 }
