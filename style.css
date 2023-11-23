@@ -115,6 +115,7 @@ body {
 }
 
 .res-grid {
+    padding-inline: 15px;
     border: 1px solid white;
     border-radius: 16px;
     padding-block: 40px;
