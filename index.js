@@ -1,15 +1,15 @@
-const videoText = document.querySelectorAll('.video-text');
+const animElements = document.querySelectorAll('.scroll-anim');
 const palmville = document.querySelector('.title');
 
 function scrollAnim() {
-    for (var i = 0; i <videoText.length; i++) {
+    for (var i = 0; i <animElements.length; i++) {
         const windowHeight = window.innerHeight;
-        const elementTop = videoText[i].getBoundingClientRect().top;
+        const elementTop = animElements[i].getBoundingClientRect().top;
         const elementVisible = 50;
         if (elementTop < windowHeight - elementVisible) {
-            videoText[i].classList.add('active');
+            animElements[i].classList.add('active');
         } else {
-            videoText[i].classList.remove('active');
+            animElements[i].classList.remove('active');
         }
     }
 }

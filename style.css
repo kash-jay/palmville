@@ -78,12 +78,15 @@ body {
 .video-text{
     width: 70%;
     text-align: center;
+}
+
+.scroll-anim {
     transform: translateY(50px);
     opacity: 0;
     transition: 0.5s all ease;
 }
 
-.video-text.active {
+.scroll-anim.active {
     transform: translateY(0);
     opacity: 1;
 }
@@ -100,6 +103,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 #residents-grid {
@@ -107,9 +111,13 @@ body {
     width: 80%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
 }
 
 .res-grid {
+    border: 1px solid white;
+    border-radius: 16px;
+    padding-block: 40px;
     width: auto;
     display: flex;
     flex-direction: column;
