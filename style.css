@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins&display=swap');
+
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+#home-wrapper {
+    font-family: 'Poppins', sans-serif;
+    height: 200vh;
+}
+
+.header {
+    z-index: 10;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    position: sticky;
+}
+
+#palms-pic {
+    height: 40%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url('./images/palms.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+.header-item {
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+    scale: 1;
+    transition: 0.2s ease-in;
+}
+
+.header-item:hover {
+    scale: 1.05;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 56px;
+}
