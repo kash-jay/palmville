@@ -3,6 +3,7 @@
 body {
     margin: 0;
     background-color: black;
+    color: white;
 }
 
 #home-wrapper {
@@ -59,7 +60,6 @@ body {
     opacity: 1;
 }
 
-
 .video-section {
     display: flex;
     justify-content: center;
@@ -92,4 +92,43 @@ body {
     width: 60%;
     height: 80%;
     border: 1px solid white;
+}
+
+#residents-section {
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#residents-grid {
+    margin-top: 100px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.res-grid {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.res-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.res-btn {
+    cursor: pointer;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 16px;
 }
