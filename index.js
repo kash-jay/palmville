@@ -1,4 +1,5 @@
 const videoText = document.querySelectorAll('.video-text');
+const palmville = document.querySelector('.title');
 
 function scrollAnim() {
     for (var i = 0; i <videoText.length; i++) {
@@ -14,3 +15,7 @@ function scrollAnim() {
 }
 
 window.addEventListener("scroll", scrollAnim);
+
+window.addEventListener('DOMContentLoaded', () => {
+    palmville.classList.add('loaded');
+})
