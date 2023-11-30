@@ -120,7 +120,7 @@ body {
 
 .res-grid {
     padding-inline: 15px;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 16px;
     padding-block: 40px;
     width: auto;
@@ -144,6 +144,12 @@ body {
     border: 1px solid black;
     padding: 10px;
     border-radius: 16px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    transition: 0.2s all ease;
+}
+
+.res-btn:hover {
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
 }
 
 .res-name {

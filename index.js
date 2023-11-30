@@ -15,27 +15,44 @@ function scrollAnim() {
 }
 
 window.addEventListener("scroll", scrollAnim);
-
 window.addEventListener('DOMContentLoaded', () => {
     palmville.classList.add('loaded');
 });
 
-var modal = document.getElementById("myModal");
-var btns = document.querySelectorAll(".res-btn");
-var span = document.getElementsByClassName("close")[0];
+const sheriffModal = document.getElementById("sheriff-modal");
+const coupleModal = document.getElementById("couple-modal");
+const chefModal = document.getElementById("chef-modal");
+const btns = document.querySelectorAll(".res-btn");
+const spans = document.querySelectorAll(".close");
+const modalArr = document.querySelectorAll('.modal');
+
 btns.forEach(function(btn) {
   btn.onclick = function() {
-    console.log(btn.id);
-    modal.style.display = "flex";
+    if (btn.id == 'sheriff-btn'){
+        console.log(btn.id);
+        sheriffModal.style.display = "flex";
+    } else if (btn.id == 'couple-btn'){
+        console.log(btn.id);
+        coupleModal.style.display = "flex";
+    } else {
+        console.log(btn.id);
+        chefModal.style.display = "flex";
+    }
   }
 });
 
-span.onclick = function() {
-  modal.style.display = "none";
-}
+spans.forEach(span => {
+    span.addEventListener('click', () => {
+        sheriffModal.style.display = "none";
+        coupleModal.style.display = "none";
+        chefModal.style.display = "none";
+    });
+});
 
 window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
+    if (event.target.id.endsWith('modal')) {
+        sheriffModal.style.display = "none";
+        coupleModal.style.display = "none";
+        chefModal.style.display = "none";
+    }
 }
