@@ -55,12 +55,12 @@ spans.forEach(span => {
 });
 
 window.onclick = function(event) {
-    iframes.forEach(iframe => {
-        iframe.src = iframe.src;
-    });
     if (event.target.id.endsWith('modal')) {
+        iframes.forEach(iframe => {
+            iframe.src = iframe.src;
+        });
         sheriffModal.style.display = "none";
         coupleModal.style.display = "none";
         chefModal.style.display = "none";
-    }
+    };
 }

@@ -29,9 +29,16 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     position: relative;
     color: #FEF3E2;
+    transition: 0.5s all ease;
+    font-size: 64px;
+}
+
+#palms-pic:hover {
+    background-size: 110%;
+    font-size: 70px;
 }
 
 .header-item {
@@ -52,9 +59,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    font-size: 64px;
     opacity: 0;
-    transition: 1.5s all ease;
 }
 
 .title.loaded{
