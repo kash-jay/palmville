@@ -4,6 +4,7 @@ body {
     margin: 0;
     background-color: black;
     color: white;
+    overflow-x: hidden;
 }
 
 #home-wrapper {
@@ -119,6 +120,7 @@ body {
 }
 
 .res-grid {
+    color: white;
     padding-inline: 15px;
     border: 2px solid black;
     border-radius: 16px;
@@ -130,23 +132,43 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-color: black;
+    box-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
 }
 
 .res-pic {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 1px solid black;
+    border: 2px solid rgb(255, 217, 0);
     box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    background-size: 175%;
+    transition: 0.5s all ease;
+}
+
+.res-pic:hover {
+    background-size: 200%;
+}
+
+#sheriff-pic {
+    background-color: white;
+    background-image: url(./images/sheriff.png);
+    background-position: center;
 }
 
 .res-btn {
     cursor: pointer;
-    border: 1px solid black;
+    border: 1px solid white;
     padding: 10px;
     border-radius: 16px;
     box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
     transition: 0.2s all ease;
+}
+
+.res-btn:hover {
+    color: black;
+    border: 1px solid black;
+    background-color: white;
 }
 
 .res-btn:hover {

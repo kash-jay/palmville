@@ -25,6 +25,7 @@ const chefModal = document.getElementById("chef-modal");
 const btns = document.querySelectorAll(".res-btn");
 const spans = document.querySelectorAll(".close");
 const modalArr = document.querySelectorAll('.modal');
+var iframes = document.querySelectorAll('iframe');
 
 btns.forEach(function(btn) {
   btn.onclick = function() {
@@ -42,14 +43,21 @@ btns.forEach(function(btn) {
 });
 
 spans.forEach(span => {
+    iframes.forEach(iframe => {
+        iframe.src = iframe.src;
+    });
     span.addEventListener('click', () => {
         sheriffModal.style.display = "none";
         coupleModal.style.display = "none";
         chefModal.style.display = "none";
     });
+    
 });
 
 window.onclick = function(event) {
+    iframes.forEach(iframe => {
+        iframe.src = iframe.src;
+    });
     if (event.target.id.endsWith('modal')) {
         sheriffModal.style.display = "none";
         coupleModal.style.display = "none";
