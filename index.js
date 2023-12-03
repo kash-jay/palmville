@@ -10,8 +10,9 @@ const chefModal = document.getElementById("chef-modal");
 const btns = document.querySelectorAll(".res-btn");
 const spans = document.querySelectorAll(".close");
 const modalArr = document.querySelectorAll('.modal');
-var iframes = document.querySelectorAll('iframe');
-
+const iframes = document.querySelectorAll('iframe');
+const signupBtn = document.querySelector('.submit-btn');
+const result = document.getElementById('result');
 
 //Scroll within page with header menu
 function scrollToOffset(str, offset) {
@@ -98,4 +99,9 @@ window.onclick = function(event) {
         coupleModal.style.display = "none";
         chefModal.style.display = "none";
     };
+}
+
+signupBtn.onclick = () => {
+    result.style.display = "flex";
+    window.scrollBy(0,50);
 }
