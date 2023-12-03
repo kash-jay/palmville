@@ -25,6 +25,7 @@ body {
     width: 100%;
     background-color: #426a95;
     position: sticky;
+    height: 25px;
 }
 
 #palms-pic {

@@ -6,15 +6,35 @@ const resBtn = document.getElementById('res-btn');
 const signUp = document.getElementById('sign-up');
 
 homeBtn.onclick = () => {
-    document.getElementById('home-wrapper').scrollIntoView({behavior: 'smooth',});
+    const div = document.getElementById('home-wrapper');
+    const rect = div.getBoundingClientRect();
+    const topWithOffset = rect.top + window.pageYOffset - 35;
+    window.scrollTo({
+        top: topWithOffset,
+        behavior: 'smooth'
+    });
 }
 
 aboutBtn.onclick = () => {
-    document.getElementById('about-section').scrollIntoView({behavior: 'smooth',});
+    // document.getElementById('about-section').scrollIntoView({behavior: 'smooth',});
+    const div = document.getElementById('about-section');
+    const rect = div.getBoundingClientRect();
+    const topWithOffset = rect.top + window.pageYOffset - 45;
+    window.scrollTo({
+        top: topWithOffset,
+        behavior: 'smooth'
+    });
 }
 
 resBtn.onclick = () => {
-    document.getElementById('residents-section').scrollIntoView({behavior: 'smooth',});
+    // document.getElementById('residents-section').scrollIntoView({behavior: 'smooth',});
+    const div = document.getElementById('residents-section');
+    const rect = div.getBoundingClientRect();
+    const topWithOffset = rect.top + window.pageYOffset - 25;
+    window.scrollTo({
+        top: topWithOffset,
+        behavior: 'smooth'
+    });
 }
 
 
