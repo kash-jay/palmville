@@ -1,5 +1,23 @@
 const animElements = document.querySelectorAll('.scroll-anim');
 const palmville = document.querySelector('.title');
+const aboutBtn = document.getElementById('about');
+const homeBtn = document.getElementById('home');
+const resBtn = document.getElementById('res-btn');
+const signUp = document.getElementById('sign-up');
+
+homeBtn.onclick = () => {
+    document.getElementById('home-wrapper').scrollIntoView({behavior: 'smooth',});
+}
+
+aboutBtn.onclick = () => {
+    document.getElementById('about-section').scrollIntoView({behavior: 'smooth',});
+}
+
+resBtn.onclick = () => {
+    document.getElementById('residents-section').scrollIntoView({behavior: 'smooth',});
+}
+
+
 
 function scrollAnim() {
     for (var i = 0; i <animElements.length; i++) {
