@@ -52,6 +52,7 @@ body {
     scale: 1;
     transition: 0.2s  all ease;
     color: white;
+    font-size: 20px;
 }
 
 .header-item:hover {

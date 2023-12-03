@@ -4,7 +4,16 @@ const aboutBtn = document.getElementById('about');
 const homeBtn = document.getElementById('home');
 const resBtn = document.getElementById('res-btn');
 const signUp = document.getElementById('sign-up');
+const sheriffModal = document.getElementById("sheriff-modal");
+const coupleModal = document.getElementById("couple-modal");
+const chefModal = document.getElementById("chef-modal");
+const btns = document.querySelectorAll(".res-btn");
+const spans = document.querySelectorAll(".close");
+const modalArr = document.querySelectorAll('.modal');
+var iframes = document.querySelectorAll('iframe');
 
+
+//Scroll within page with header menu
 function scrollToOffset(str, offset) {
     const div = document.getElementById(str);
     const rect = div.getBoundingClientRect();
@@ -31,8 +40,7 @@ signUp.onclick= () => {
     scrollToOffset('sign-up-section', 30);
 }
 
-
-
+//Scroll animations for titles
 function scrollAnim() {
     for (var i = 0; i <animElements.length; i++) {
         const windowHeight = window.innerHeight;
@@ -51,14 +59,8 @@ window.addEventListener('DOMContentLoaded', () => {
     palmville.classList.add('loaded');
 });
 
-const sheriffModal = document.getElementById("sheriff-modal");
-const coupleModal = document.getElementById("couple-modal");
-const chefModal = document.getElementById("chef-modal");
-const btns = document.querySelectorAll(".res-btn");
-const spans = document.querySelectorAll(".close");
-const modalArr = document.querySelectorAll('.modal');
-var iframes = document.querySelectorAll('iframe');
 
+//Bring up video modals for each resident
 btns.forEach(function(btn) {
   btn.onclick = function() {
     if (btn.id == 'sheriff-btn'){
@@ -74,6 +76,7 @@ btns.forEach(function(btn) {
   }
 });
 
+//Hide modals
 spans.forEach(span => {
     iframes.forEach(iframe => {
         iframe.src = iframe.src;
