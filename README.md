@@ -26,11 +26,27 @@ We have four scenes to shoot: The community environment for the introduction vid
 
 ## Implementation
 ### Audio
-
+We recorded the narration portion of the video, helped shoot some of the scenes, wrote part of the script, and edited the audio for the video. We recorded with the Zoom H5 recorder and edited the audio in Pro Tools. In order to support the narration, we also added in some background audio using the software Soundly. When editing the audio, we didn’t use many plug-ins since the audio was fairly clean and didn’t need much adjustment. For consistency purposes, we chopped up the audio and used fade ins and outs to create a seamless soundscape.
 
 ### Video
-There are two parts of filming:1. Environment 2. Personal interviews. The equipment used in filming is the Sony video camera that comes with a microphone and the tripod. For the environment, we took shots in some spots on campus that might represent the imagined environment of PalmVille, including the Sexton Square, Highline, and the desert outside. We mainly took static scenes for around 30 seconds with some zoomed in shots. 
-![alt text](./map.jpg)
+There are two parts of filming: 1. Environment 2. Personal interviews. The equipment used in filming is the Sony video camera that comes with a microphone and the tripod. For the environment, we took shots in some spots on campus that might represent the imagined environment of PalmVille, including the Sexton Square, Highline, and the desert outside. We mainly took static scenes for around 30 seconds with some zoomed in shots. 
+![alt text](./screenshots/6.jpeg)
+For the personal interviews, they mainly took place in the Baraha study rooms for their casual, home/office like settings. We used the BBC rule introduced in class to frame the camera for the interviews. As time for each character was limited, we did not include the actual interviewers. Instead, we put the questions into the videos as subtitles.
+![alt text](./screenshots/5.jpeg)
+For cutting and editing, we mainly used Final Cut Pro. There are several techniques used in this project (take the Sheriff’s clip as an example):
+1. Transition effects:
+The main transition effect used is the cross dissolve. Since we have many clips taken at different time, it is important to make the transitions smooth and natural. The cross dissolve does a good job in creating this for almost all different shot.
+![alt text](./screenshots/4.jpeg)
+2. Ken Burns Transform (Key frames)
+We also applied Ken Burns transform to this project. It is a special case of key frames. The editing software can automatically calculate the change of the pivotal point and the scale and move the center of the camera to the desired place with the focus specified. This transform is quick, automatic and natural, and is very helpful for shifting the focus of the viewers.
+![alt text](./screenshots/3.jpeg)
+3. Preset animations and subtitles
+We took the advantage of many Presets in Final Cut Pro. Specifically, we used the animated subtitles to make our videos more dynamic. We used the lower third subtitles for both the introduction of the characters and the interview question display and the center subtitle for the ending screen.
+![alt text](./screenshots/2.jpeg)
+4. As an addition, we also took the advantage of the audio editing feature of Final Cut Pro to make simple productions on our recorded sounds. We used the noise cancellation, hum cancellation, fade-in/fade-out, and attenuation to make our sounds sound better and consistent with the videos.
+![alt text](./screenshots/1.jpeg)
+
+### Website
 
 ## Roles and Contributions
 ### Diana
