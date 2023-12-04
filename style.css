@@ -106,9 +106,10 @@ body {
 }
 
 .video {
-    width: 60%;
+    position: relative;
+    width: 75%;
     height: 80%;
-    border: 1px solid white;
+    max-width: 745px;
 }
 
 #residents-section {
