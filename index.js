@@ -102,6 +102,6 @@ window.onclick = function(event) {
 }
 
 signupBtn.onclick = () => {
-    result.style.display = "flex";
+    result.style.opacity = "1";
     window.scrollBy(0,50);
 }

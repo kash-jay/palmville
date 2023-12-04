@@ -316,6 +316,8 @@ h1 {
 }
 
 #result {
-    display: none;
+    display: flex;
+    opacity: 0;
     gap: 10px;
+    transition: 1s all ease;
 }
