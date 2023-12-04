@@ -169,6 +169,28 @@ body {
     background-position: center;
 }
 
+#couple-pic {
+    background-color: white;
+    background-image: url(./images/couple.png);
+    background-position: center;
+    background-size: 125%;
+}
+
+#couple-pic:hover {
+    background-size: 150%;
+}
+
+#restaurant-pic {
+    background-color: white;
+    background-image: url(./images/chef.png);
+    background-position: center;
+    background-size: 110%;
+}
+
+#restaurant-pic:hover {
+    background-size: 130%;
+}
+
 .res-btn {
     cursor: pointer;
     border: 1px solid white;
