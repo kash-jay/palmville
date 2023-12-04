@@ -27,27 +27,56 @@ We have four scenes to shoot: The community environment for the introduction vid
 ## Implementation
 ### Audio
 We recorded the narration portion of the video, helped shoot some of the scenes, wrote part of the script, and edited the audio for the video. We recorded with the Zoom H5 recorder and edited the audio in Pro Tools. In order to support the narration, we also added in some background audio using the software Soundly. When editing the audio, we didn’t use many plug-ins since the audio was fairly clean and didn’t need much adjustment. For consistency purposes, we chopped up the audio and used fade ins and outs to create a seamless soundscape.
+
 ![alt text](./screenshots/7.jpeg)
 
 ### Video
 There are two parts of filming: 1. Environment 2. Personal interviews. The equipment used in filming is the Sony video camera that comes with a microphone and the tripod. For the environment, we took shots in some spots on campus that might represent the imagined environment of PalmVille, including the Sexton Square, Highline, and the desert outside. We mainly took static scenes for around 30 seconds with some zoomed in shots. 
+
 ![alt text](./screenshots/6.jpeg)
+
 For the personal interviews, they mainly took place in the Baraha study rooms for their casual, home/office like settings. We used the BBC rule introduced in class to frame the camera for the interviews. As time for each character was limited, we did not include the actual interviewers. Instead, we put the questions into the videos as subtitles.
+
 ![alt text](./screenshots/5.jpeg)
+
 For cutting and editing, we mainly used Final Cut Pro. There are several techniques used in this project (take the Sheriff’s clip as an example):
 1. Transition effects:
 The main transition effect used is the cross dissolve. Since we have many clips taken at different time, it is important to make the transitions smooth and natural. The cross dissolve does a good job in creating this for almost all different shot.
+
 ![alt text](./screenshots/4.jpeg)
-2. Ken Burns Transform (Key frames)
+
+3. Ken Burns Transform (Key frames):
 We also applied Ken Burns transform to this project. It is a special case of key frames. The editing software can automatically calculate the change of the pivotal point and the scale and move the center of the camera to the desired place with the focus specified. This transform is quick, automatic and natural, and is very helpful for shifting the focus of the viewers.
+
 ![alt text](./screenshots/3.jpeg)
-3. Preset animations and subtitles
+
+5. Preset animations and subtitles:
 We took the advantage of many Presets in Final Cut Pro. Specifically, we used the animated subtitles to make our videos more dynamic. We used the lower third subtitles for both the introduction of the characters and the interview question display and the center subtitle for the ending screen.
+
 ![alt text](./screenshots/2.jpeg)
-4. As an addition, we also took the advantage of the audio editing feature of Final Cut Pro to make simple productions on our recorded sounds. We used the noise cancellation, hum cancellation, fade-in/fade-out, and attenuation to make our sounds sound better and consistent with the videos.
+
+6. As an addition, we also took the advantage of the audio editing feature of Final Cut Pro to make simple productions on our recorded sounds. We used the noise cancellation, hum cancellation, fade-in/fade-out, and attenuation to make our sounds sound better and consistent with the videos.
+
 ![alt text](./screenshots/1.jpeg)
 
 ### Website
+The website uses a number of features to bring life to Palmville and encourage viewers to join the community. 
+
+1. Animations:
+Scroll Animations:
+The JavaScript file defines a function scrollAnim() that adds animations to elements when they enter the viewport during scrolling by checking each element's position relative to the viewport and adding an 'active' class when the element is visible, which is what triggers the animations.
+Page Load Animation:
+When the page is loaded, the JavaScript file adds a 'loaded' class to the element with the class .title, which initiates an animation to make the title appear in a visually appealing way when the page is first opened.
+
+2. Modals (pop-up windows):
+The project has modals for displaying videos about the residents. There are event listeners attached to buttons (like 'sheriff-btn', 'couple-btn'). When these buttons are clicked, the corresponding modal (sheriffModal, coupleModal) is displayed with a flex style, making the modal appear on the screen. When clicking outside the modal, it is closed. Also, there's code to reset the video iframe sources when closing the modals to stop video playback and reset the video timer.
+
+3. Form:
+The form at the end is just a placeholder for an actual form, meaning it does not actually send data anywhere. The confirmation message is set to `opacity: 0` and when the sign up button is clicked, it changes to `opacity: 1`, with a small animation for the sake of improving user experience.
+
+4. Header:
+The header menu is set to `position:fixed` so that it always sticks to the top. The buttons help the user navigate through the page using the scrollToOffset() function which calculates the position of the div to scroll to and adds the offset (height of the header bar). This is combined with `behavior: 'smooth'` to ensure the scrolling is smooth to improve user experience. 
+
 
 ## Roles and Contributions
 ### Diana
