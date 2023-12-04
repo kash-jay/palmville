@@ -84,14 +84,22 @@ When working on the audio for the video, I wanted to sonically support the visua
 ### Yupu
 Primarily filmed the scenes, cut and edited the videos, helped build the website, and wrote the script and shot list together with other team members.
 ### Madina
+Together with my teammates I worked on the shotlist and wrote the script. Also helped with filming.
 ### Kash
 Worked on part of the script and shot list, helped film some of the scenes, and created the website.
 
 
 ## Reflection and Evaluations
+
 ### Diana
+
 Brainstorming an idea took some time initially, but we were all able to agree on the final concept after the first class. We wanted to go for a light hearted pseudo-documentary that advertised the small town that we came up with known as Palmville. We based Palmville off of campus, since we knew that we needed to film primarily on campus. We then went on to pick different areas around campus to film and organized a final shot list. Once this was done, we each chose a character to write lines for and found actors to play each role. Over the following weeks, we shot footage of each character and collected our clips to prepare them for post production. Throughout the entire process, we communicated with each other to ensure the project was running smoothly and that each of us was fulfilling our roles. I really liked how our project came together in the end and enjoyed watching the final video.
+
 ### Yupu
+There were some problems we had to solve during the shooting and production. For shooting, since we were limited to the campus, we needed to consider which spots on campus can represent the image of PalmVille. And for different places, we needed to take different scenes and framed our camera differently. We solved this problem by taking as many shots as we could and selected them afterwards. Another challenge is the length of the videos. Originally, we had a total of 10 minutes of clips after editing and we decided to cut those parts that were not really relevant to the theme of PalmVille. We could have noticed this problem when writing the script, but we learnt about it this time. Moreover, even though the Sony video camera comes with a microphone, it is mono audio and audio quality is not very high. We can solve this problem next time either by using a better plugged-in microphone or a separate dedicated audio recorder. Overall, the final production is very satisfactory and our goal of showing the lives of PalmVille residents while inviting people to move to PalmVille is achieved.
+
 ### Madina
+The main goal was to depict how perfect Palmville is by showcasing some beautiful scenes and telling the stories of its residents. I think we did a good job conveying our idea. It was a fun project to work on and I really enjoyed the process. Regarding the challenges, we faced some difficulties when choosing the right equipment. We experimented with different cameras and recorders both from the Equipment Center and Library. In the end we could find the right balance between video quality and the simplicity of equipment usage as well as its availability. I also found writing the script to be a challenging yet interesting task because we had to create a totally new place and come up with the stories for its residents. I am proud of how our team could resolve those issues and successfully finish the project.
+
 ### Kash
 Brainstorming with the team was really fun and when we came up with the idea for Palmville, I was very excited to see our project come to life. Creating a fictional place and story gave us the freedom to do pretty much anything we wanted to do, which is why we came up with funny ideas like the sheriff chasing someone, the chef singing to the trees, etc. Everything pretty much went according to plan and working with the team was great because everyone was enthusiastic about our idea. I had never filmed anything like this before so this was a great experience. Our shots came out pretty much how we expected them to, if not better. Creating the website also went really well because we had a rough design planned in our minds before starting. Overall, I think it’s safe to say that this project was a big success. We did more than we first thought we could, and it feels really good to see our hard work turn into something special.
