@@ -27,6 +27,7 @@ We have four scenes to shoot: The community environment for the introduction vid
 ## Implementation
 ### Audio
 We recorded the narration portion of the video, helped shoot some of the scenes, wrote part of the script, and edited the audio for the video. We recorded with the Zoom H5 recorder and edited the audio in Pro Tools. In order to support the narration, we also added in some background audio using the software Soundly. When editing the audio, we didn’t use many plug-ins since the audio was fairly clean and didn’t need much adjustment. For consistency purposes, we chopped up the audio and used fade ins and outs to create a seamless soundscape.
+![alt text](./screenshots/7.jpeg)
 
 ### Video
 There are two parts of filming: 1. Environment 2. Personal interviews. The equipment used in filming is the Sony video camera that comes with a microphone and the tripod. For the environment, we took shots in some spots on campus that might represent the imagined environment of PalmVille, including the Sexton Square, Highline, and the desert outside. We mainly took static scenes for around 30 seconds with some zoomed in shots. 
